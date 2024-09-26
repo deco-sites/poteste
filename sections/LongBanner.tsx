@@ -16,6 +16,7 @@ export default function LongBanner({ image, alt }: Props) {
         height={256}
         class="w-full object-cover mx-auto"
       />
+      <p>Oi</p>
     </div>
   );
 }
