@@ -49,12 +49,55 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/TripleBanner.tsx",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/poteste/5cdaf0b1-13e2-43a2-9f11-9f734c110b52/triplebanerleft.png",
+        "alt": "Image Left",
+        "image1": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/poteste/d6f9c738-f165-435f-913d-8ab75e07cc54/triplebannercenter.png",
+        "image2": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/poteste/35552215-4de4-4d97-a035-af7c76f85d12/triplebannerright.png",
+        "alt1": "Image Center",
+        "alt2": "Image Right",
+        "imageLeft": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/poteste/5cdaf0b1-13e2-43a2-9f11-9f734c110b52/triplebanerleft.png",
+        "imageCenter": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/poteste/d6f9c738-f165-435f-913d-8ab75e07cc54/triplebannercenter.png",
+        "imageRight": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/poteste/35552215-4de4-4d97-a035-af7c76f85d12/triplebannerright.png",
+        "altLeft": "Image 1",
+        "altCenter": "Image 2",
+        "altRight": "Image 3",
+        "banners": [
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/poteste/35552215-4de4-4d97-a035-af7c76f85d12/triplebannerright.png",
+            "alt": "1",
+            "url": "/"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/poteste/d6f9c738-f165-435f-913d-8ab75e07cc54/triplebannercenter.png",
+            "alt": "2",
+            "url": "/"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/poteste/5cdaf0b1-13e2-43a2-9f11-9f734c110b52/triplebanerleft.png",
+            "alt": "3",
+            "url": "/"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
         "title": "Featured Products",
         "cta": "/mono",
         "products": {
           "__resolveType": "Product List Loader"
         }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/LongBanner.tsx",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/poteste/7a9ba1e5-c019-4246-b745-c4a0bf506212/Rectangle-23.png",
+        "alt": "Banner"
       }
     },
     {
@@ -192,12 +235,6 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "Footer"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/LongBanner.tsx"
       }
     }
   ],
