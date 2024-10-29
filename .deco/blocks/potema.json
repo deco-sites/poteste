@@ -17,6 +17,28 @@
   "mode": "dark",
   "mainColors": {
     "primary": " #06503C",
-    "secondary": "#393939"
+    "secondary": "#5A421B"
+  },
+  "font": {
+    "__resolveType": "website/loaders/fonts/googleFonts.ts",
+    "fonts": [
+      {
+        "variations": [
+          {
+            "weight": "400"
+          },
+          {
+            "weight": "500"
+          },
+          {
+            "weight": "600"
+          },
+          {
+            "weight": "700"
+          }
+        ],
+        "family": "Montserrat"
+      }
+    ]
   }
 }
