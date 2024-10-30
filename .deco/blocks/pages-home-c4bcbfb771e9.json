@@ -139,6 +139,18 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/BeforeAfter.tsx",
+        "title": "Lorem Ipsum",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/poteste/05cfecae-697e-40d1-9c0a-3fa17c75879e/transformacaobeforeafter.jpeg",
+        "alt": "Transformação",
+        "description": "Lorem Ipsum",
+        "url": "Conheça nosso produto",
+        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/poteste/10e4f3a2-064b-4898-8982-89f5beee4b4d/seta.svg"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Images/Banner.tsx",
         "title": "Register and Save Big!",
         "cta": {

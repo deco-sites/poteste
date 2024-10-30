@@ -8,8 +8,14 @@ interface Props {
 
 export default function HomeBanner({ image, alt }: Props) {
   return (
-    <div>
-      <Image src={image} alt={alt} width={1950} height={437} />
+    <div class="w-[1440px] h-[437px] mx-auto">
+      <Image
+        src={image}
+        alt={alt}
+        width={1440}
+        height={437}
+        class="object-cover w-[1440px] h-[437px]"
+      />
     </div>
   );
 }

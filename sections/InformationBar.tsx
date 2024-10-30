@@ -10,6 +10,7 @@ export interface Banner {
 }
 
 interface Props {
+  /**@maxItems 4 */
   infoBanner: Banner[];
 }
 
@@ -26,7 +27,7 @@ export default function InformationBar({ infoBanner }: Props) {
             class="object-cover rounded-lg space-x-0"
           />
 
-          <div class="text-secondary text-base w-[250px] h-[40px] ">
+          <div class=" text-secondary font-[Montserrat] text-base w-[250px] h-[40px] ">
             <p>{info.title}</p>
             <p>{info.description}</p>
           </div>
