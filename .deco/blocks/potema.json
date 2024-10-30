@@ -25,6 +25,9 @@
       {
         "variations": [
           {
+            "weight": "300"
+          },
+          {
             "weight": "400"
           },
           {
