@@ -20,11 +20,9 @@ export default function BeforeAfter({
 }: Props) {
   return (
     <div class="w-[1225px] h-[488px] flex mx-auto">
-      <div>
-        <Image src={image} alt={alt} width={667} height={488} />
-      </div>
+      <Image src={image} alt={alt} width={667} height={488} />
 
-      <div class="block mx-auto w-[542px] h-[165px]">
+      <div class="flex-col mx-auto my-auto w-[542px] h-[165px] font-[Montserrat]">
         <div class="w-[542px] h-8">
           <p>{title}</p>
         </div>
