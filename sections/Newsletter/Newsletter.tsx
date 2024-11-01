@@ -36,7 +36,10 @@ export async function action(props: Props, req: Request, ctx: AppContext) {
 export function loader(props: Props) {
   return { ...props, status: undefined };
 }
-function Notice({ title, description }: {
+function Notice({
+  title,
+  description,
+}: {
   title?: string;
   description?: string;
 }) {
@@ -80,7 +83,7 @@ function Newsletter({
             class={clx(status === "success" ? "text-success" : "text-error")}
             id={status === "success" ? "check-circle" : "error"}
           />
-          <Notice {...status === "success" ? success : failed} />
+          <Notice {...(status === "success" ? success : failed)} />
         </div>
       </Section.Container>
     );
@@ -104,9 +107,7 @@ function Newsletter({
           />
 
           <button class="btn btn-primary" type="submit">
-            <span class="[.htmx-request_&]:hidden inline">
-              {label}
-            </span>
+            <span class="[.htmx-request_&]:hidden inline">{label}</span>
             <span class="[.htmx-request_&]:inline hidden loading loading-spinner" />
           </button>
         </form>
