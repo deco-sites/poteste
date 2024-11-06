@@ -139,32 +139,13 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/BeforeAfter.tsx",
-        "title": "Lorem Ipsum",
-        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/poteste/05cfecae-697e-40d1-9c0a-3fa17c75879e/transformacaobeforeafter.jpeg",
-        "alt": "Transformação",
-        "description": "Lorem Ipsum",
-        "url": "Conheça nosso produto"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Newsletter.tsx",
-        "title": "As",
-        "description": "as"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
         "__resolveType": "site/sections/Images/Banner.tsx",
         "title": "Register and Save Big!",
+        "description": "<p><span style=\"color: rgb(45, 194, 107);\" data-mce-style=\"color: rgb(45, 194, 107);\">Sign up now to get up to 50% off on your first order. Limited time offer!</span></p>",
         "cta": {
           "label": "Sign Up",
           "href": "#"
         },
-        "description": "<p><span style=\"color: rgb(45, 194, 107);\" data-mce-style=\"color: rgb(45, 194, 107);\">Sign up now to get up to 50% off on your first order. Limited time offer!</span></p>",
         "images": {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/cf96d47f-564f-40da-ad94-7acac5f39327",
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/4d5c3212-3f75-4d50-89f3-970815748b43"
@@ -229,6 +210,37 @@
             "title": "Stickers"
           }
         ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BeforeAfter.tsx",
+        "title": "Compactação Amazon Therapy Supreme",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/poteste/05cfecae-697e-40d1-9c0a-3fa17c75879e/transformacaobeforeafter.jpeg",
+        "alt": "Transformação",
+        "description": "Lorem ipsum dolor sit amet consectetur. Elit velit pretium arcu id velit arcu elementum id. Cursus blandit molestie fringilla purus. Elementum augue maecenas id dis tempus. Nisi arcu sodales orci ipsum aliquet sagittis risus morbi.",
+        "url": "Conheça nosso produto",
+        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/poteste/10e4f3a2-064b-4898-8982-89f5beee4b4d/seta.svg"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Newsletter/Newsletter.tsx",
+        "empty": {
+          "title": "Receba todas as promoções",
+          "description": "Quer receber nossas ofertas? Cadastre-se e comece a recebê-las!"
+        },
+        "success": {
+          "title": "Muito obrigado por assinar nossa newsletter!"
+        },
+        "failed": {
+          "title": "Sinto muito, algo deu errado. Tente novamente!",
+          "description": "deu ruim"
+        },
+        "placeholder": "Digite seu email aqui ",
+        "placeholderName": "Digite seu nome aqui       "
       }
     },
     {

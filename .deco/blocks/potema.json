@@ -1,6 +1,6 @@
 {
   "__resolveType": "site/sections/Theme/Theme.tsx",
-  "colorScheme": "light",
+  "colorScheme": "any",
   "buttonStyle": {
     "--border-btn": "1px",
     "--rounded-btn": "0.2rem",
@@ -18,7 +18,7 @@
   "mainColors": {
     "primary": "#06503C",
     "secondary": "#5A421B",
-    "base-100": "#000000"
+    "base-100": "#FFFFFF"
   },
   "font": {
     "__resolveType": "website/loaders/fonts/googleFonts.ts",
@@ -44,5 +44,8 @@
         "family": "Montserrat"
       }
     ]
+  },
+  "complementaryColors": {
+    "base-200": "#FFFFFF"
   }
 }

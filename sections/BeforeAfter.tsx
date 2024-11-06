@@ -7,7 +7,7 @@ interface Props {
   title: string;
   description: string;
   url: string;
-  icon?: ImageWidget;
+  icon: ImageWidget;
 }
 
 export default function BeforeAfter({
@@ -22,20 +22,21 @@ export default function BeforeAfter({
     <div class="w-[1225px] h-[488px] flex mx-auto">
       <Image src={image} alt={alt} width={667} height={488} />
 
-      <div class="flex-col mx-auto my-auto w-[542px] h-[165px] font-[Montserrat]">
+      <div class="flex-col ml-4 mx-auto my-auto  w-[542px] h-[165px] font-[Montserrat]">
         <div class="w-[542px] h-8">
-          <p>{title}</p>
+          <p class="font-semibold text-2xl">{title}</p>
         </div>
 
-        <div class="w-[461px] h-16">
-          <p>{description}</p>
+        <div class="w-[461px] h-16 mt-8 mb-[13px]">
+          <p class="font-light text-xs">{description}</p>
         </div>
-
-        <div class="w-4 h-[15px]">{icon}</div>
 
         <div class-="w-[461px] h-6">
-          <a>
-            <p>{url}</p>
+          <a href={url} class="flex gap-2">
+            <p class="text-base font-semibold	">{url}</p>
+            {icon && (
+              <Image src={icon} alt={alt} width={16} height={16} class="" />
+            )}
           </a>
         </div>
       </div>
